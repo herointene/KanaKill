@@ -2,16 +2,18 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Kana></Kana>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import Kana from './components/Kana.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Kana,
   }
 }
 </script>
