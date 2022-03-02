@@ -289,14 +289,19 @@
           "romaji": "wa"
         },
         {},
-        {},
-        {},
         {
           "id": "wo",
           "hiragana": "を",
           "katakana": "ヲ",
           "romaji": "wo"
-        }
+        },
+        {},
+        {
+					"id": "n",
+					"hiragana": "ん",
+					"katakana": "ン",
+					"romaji": "n"
+				}
       ]
     ]
   },
