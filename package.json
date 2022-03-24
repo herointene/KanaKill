@@ -1,6 +1,8 @@
 {
   "name": "kanakill",
   "version": "0.1.0",
+  "author": "Ted WU <wulited@outlook.com> (https://github.com/herointene/)",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

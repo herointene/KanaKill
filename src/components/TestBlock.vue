@@ -110,7 +110,7 @@
 		},
 
 		methods: {
-			switchFrom(typeFrom){
+			switchFrom(typeFrom){ //event 'typeFrom' send a type to ''typeFrom'' in this component's data 
 				this.typeFrom = typeFrom
 			},
 

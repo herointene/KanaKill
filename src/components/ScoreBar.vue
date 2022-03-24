@@ -24,13 +24,14 @@
 </template>
 
 <script>
-import 'animate.css'
+// import 'animate.css'
 export default {
   props:['currentChance', 'typeFrom'],
   methods: {
     switchType(){
       if(this.typeFrom === 'hiragana'){
-        this.$emit('typeFrom','katakana')
+        this.$emit('typeFrom','katakana') // send 'katakana' to TestBlock comp, 
+        //the event emit will call a function.
       }else{
         this.$emit('typeFrom','hiragana')
       }
