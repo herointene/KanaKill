@@ -9,7 +9,7 @@
       </transition-group>
     </div>
     <a href="https://github.com/herointene/kanakill" 
-      id="appNameShow" 
+      id="appNameShow" target="_blank"
       class=" col-span-2 font-bold inner_text_shadow "
     >
     @KanaKill
