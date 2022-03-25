@@ -8,11 +8,16 @@
         </span>
       </transition-group>
     </div>
-    <div id="appNameShow" class=" col-span-2 font-bold inner_text_shadow ">@KanaKill</div>
+    <a href="https://github.com/herointene/kanakill" 
+      id="appNameShow" 
+      class=" col-span-2 font-bold inner_text_shadow "
+    >
+    @KanaKill
+    </a>
     <div id="grid-6"></div>
     <div ontouchstart="" @click="switchType"
       class=" rounded-xl  cursor-pointer  w-16 text-opacity-70"
-      :class="typeFrom==='hiragana'? 'shadow-box-1':'shadow-box-inner'"
+      :class="typeFrom==='hiragana'? 'shadow-box-2':'shadow-box-inner'"
     >
       {{typeFrom.slice(0,4)}}
     </div>
