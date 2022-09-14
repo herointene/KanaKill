@@ -1,6 +1,6 @@
 <template>
 	<div id="showHiragana" class="text-center w-full  text-red-300 text-7xl inner_text_shadow ">
-		<p class="transition" :class="{'opacity-0':opaToggle}"> {{getKana(gyo,dan,kanaType)}} </p>		
+		<p class="transition select-none" :class="{'opacity-0':opaToggle}"> {{getKana(gyo,dan,kanaType)}} </p>		
 	</div>
 </template>
 

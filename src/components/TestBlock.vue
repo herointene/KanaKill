@@ -14,7 +14,7 @@
 				<Kana v-bind="i" :opaToggle="opaToggle"></Kana>
 			</div>
 		</div>
-		<div
+		<div ontouchstart=""
 			class="flex justify-center items-center mx-auto mt-10 w-80 h-11 cursor-pointer rounded-2xl shadow-box-1 transition ease-in lg:hover:bg-gray-100 lg:active:bg-red-50 active:shadow-box-inner  bg-red-50"
 			@click="getAudio(currentGyo,currentDan)">
 			<div class="text-center font-bold select-none text-red-300">Play Audio / 播放音頻 </div>
