@@ -12,7 +12,7 @@
         href="https://github.com/herointene/kanakill"
         id="appNameShow"
         target="_blank"
-        class="col-span-2 font-bold inner_text_shadow"
+        class="select-none col-span-2 font-bold inner_text_shadow"
       >
         @KanaKill
       </a>
