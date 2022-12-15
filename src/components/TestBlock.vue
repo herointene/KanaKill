@@ -105,7 +105,7 @@ export default {
 		// },
 		currentChance() {
 			if (this.currentChance < 0) {
-				alert('GameOver! You got ' + this.currentScore + '. Try again!')
+				alert('GameOver! You got ' + this.currentScore + '. Try again! \n 你獲得了 ' + this.currentScore + '分，請再接再厲！ ')
 				this.currentChance = 3
 				this.currentScore = 0
 			}
