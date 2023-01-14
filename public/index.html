@@ -11,7 +11,17 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="KanaKill">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="Learn Japanese 50 sounds, katakana, hiragana in the fastest way."/>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-44R34LDPR6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-44R34LDPR6');
+  </script>
   <body class="bg-red-50" >
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
