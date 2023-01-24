@@ -10,7 +10,7 @@ From now, the app is more and more complicated since I was doing this project wh
 
 ## Version v0.2.0
 1. Added AUDIO!!! yeahhh
-*** All of the audio files in current version are come from Internet, for my personal, non-commercial use. MIT licence in THIS app will not cover these audio files. ***
+  
 ## How to use (v0.1.0)
 
 1. choose kana type you want to practice on the right-top window

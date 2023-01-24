@@ -176,7 +176,7 @@ export default {
 			let items = this.kanaJson[0].items
 			let kana = items[gyo][dan]['romaji']
 			console.log(kana);
-			let source = './audio/' + kana + '.mp3'
+			let source = './audio/' + kana + '.wav'
 			console.log(source);
 			if (source) {
 				const audio = new Audio(require(`${source}`))

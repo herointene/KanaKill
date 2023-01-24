@@ -1,7 +1,7 @@
 {
   "name": "kanakill",
-  "version": "0.1.0",
-  "author": "Ted WU <wulited@outlook.com> (https://github.com/herointene/)",
+  "version": "0.2.0",
+  "author": "Ted WU <wulited@outlook.com> (https://ted.ewig.dev)",
   "license": "MIT",
   "private": true,
   "scripts": {
