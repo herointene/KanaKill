@@ -1,9 +1,9 @@
 <template>
-  <div class="shadow-md pb-2 mb-3">
+  <div class="rounded-md shadow-md pb-2 mb-3">
     <div class="grid grid-cols-8 gap-x-3 text-xl text-red-400">
       <div id="sakuraScoreBar" class="col-span-3 flex">
-        <transition-group tag="p" name="sakuraDrop" class="md:mx-auto">
-          <span class="sakura select-none" v-for="i in currentChance" :key="i">
+        <transition-group tag="p" name="sakuraDrop" >
+          <span class="sakura select-none md:mx-auto" v-for="i in currentChance" :key="i">
             &#127800;
           </span>
         </transition-group>
@@ -49,7 +49,7 @@ export default {
 <style>
 .sakura {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .sakuraDrop-leave-active {
