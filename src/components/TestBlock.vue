@@ -17,7 +17,10 @@
 		<div ontouchstart=""
 			class="flex justify-center items-center mx-auto mt-10 w-80 h-11 cursor-pointer rounded-2xl shadow-box-1 transition ease-in lg:hover:bg-gray-100 lg:active:bg-red-50 active:shadow-box-inner  bg-red-50"
 			@click="getAudio(currentGyo,currentDan)">
-			<div class="text-center font-bold select-none text-red-300">Play Audio / 播放音頻 </div>
+			<div class="text-center font-bold select-none text-red-300">
+				<svg class="inline" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 14.959V9.04C2 8.466 2.448 8 3 8h3.586a.98.98 0 0 0 .707-.305l3-3.388c.63-.656 1.707-.191 1.707.736v13.914c0 .934-1.09 1.395-1.716.726l-2.99-3.369A.98.98 0 0 0 6.578 16H3c-.552 0-1-.466-1-1.041ZM16 8.5c1.333 1.778 1.333 5.222 0 7M19 5c3.988 3.808 4.012 10.217 0 14"/></svg>
+				Play Audio / 播放音頻 
+			</div>
 		</div>
 	</div>
 </template>
