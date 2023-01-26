@@ -58,7 +58,7 @@ export default {
       let kana = items[nowGyo][nowDan][kanaType]
       let romaji = items[nowGyo][nowDan]['romaji']
       if (kana) {
-				this.audioPath = 'audio/'+romaji+'.wav'
+				this.audioPath = 'audio/'+romaji+'.mp3'
         return kana;
 
       } else {

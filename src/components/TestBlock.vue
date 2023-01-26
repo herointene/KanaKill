@@ -179,7 +179,7 @@ export default {
 			let items = this.kanaJson[0].items
 			let kana = items[gyo][dan]['romaji']
 			
-			let source = './audio/' + kana + '.wav'
+			let source = './audio/' + kana + '.mp3'
 			
 			if (source) {
 				const audio = new Audio(require(`${source}`))
