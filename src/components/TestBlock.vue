@@ -57,6 +57,7 @@ export default {
 			transToggle: false,
 			currentGyo: 0,
 			currentDan: 0,
+			wrongList:[],
 
 		}
 	},
@@ -108,7 +109,12 @@ export default {
 		// },
 		currentChance() {
 			if (this.currentChance < 0) {
-				alert('GameOver! You got ' + this.currentScore + '. Try again! \n 你獲得了 ' + this.currentScore + '分，請再接再厲！ ')
+				alert(`GameOver! You got  ${this.currentScore} score. Try again!
+你獲得了 ${this.currentScore} 分，請再接再厲！
+these kanas need to be memorized more: 
+多多記憶它們：
+${this.wrongList[0]}, ${this.wrongList[1]}, ${this.wrongList[2]}, ${this.wrongList[3]}
+`)
 				this.currentChance = 3
 				this.currentScore = 0
 			}
@@ -128,6 +134,7 @@ export default {
 
 		checkIt(i) {
 			if (i.gyo === this.currentGyo && i.dan === this.currentDan) {
+				// correct answer
 				i.tapCorrect = true
 				this.currentScore += 1
 				setTimeout(() => {
@@ -137,8 +144,9 @@ export default {
 					this.getCurrent()
 					i.tapCorrect = false
 				}, 400)
-			} else {
-				console.log('wrong')
+			} else { //wrong answer
+				// console.log(i);
+				this.recordWrongAnswer()
 				this.transToggle = true
 				i.tapWrong = true
 				this.currentChance -= 1
@@ -150,6 +158,12 @@ export default {
 					i.tapWrong = false
 				}, 1200)
 			}
+		},
+
+		recordWrongAnswer(){
+			let wrongkana = this.kanaJson[0].items[this.currentGyo][this.currentDan][this.typeFrom]
+			console.log(wrongkana)
+			this.wrongList.push(wrongkana)
 		},
 
 		classToggle(i) {
