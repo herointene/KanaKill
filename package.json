@@ -4,6 +4,9 @@
   "author": "Ted WU <wulited@outlook.com> (https://ted.ewig.dev)",
   "license": "MIT",
   "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
